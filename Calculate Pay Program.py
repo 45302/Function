@@ -29,13 +29,12 @@ def Display_Total_Pay(Hours,Rate,Total):
     print("Because you did {0} hours, and your rate of pay is {1}, you will be payed £{2}.".format(Hours,Rate,Total))
 
 def Calculate_Pay(Hours,Rate):
-    Hours, Rate = Work_Information()
     return Total
 
 #Main Program
-Hours,Rate = Work_Information()
+Total = 0
 
-Calculate_Total_Pay(Hours,Rate)
+Hours,Rate = Work_Information()
 
 Calculate_Total_Pay(Hours,Rate)
 
