@@ -4,9 +4,11 @@
 
 #Functions
 def Stars():
-    Pyramid_Number = int(input("Please insert an odd number: "))
-    for Star_Triangle in range(Pyramid_Number):
-        
-
-#Main Program
+    Star = "*"
+    Triangle_Number = int(input("Please insert an odd number: "))
+    Printed = (Star * Triangle_Number) 
+    for Line_Counter in range(Triangle_Number):
+        print("{0:^50}".format(Printed))
+        Triangle_Number = (Triangle_Number - 2)
+        Printed = (Star * Triangle_Number)     
 Stars()
